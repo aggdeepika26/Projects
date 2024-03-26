@@ -1,0 +1,8 @@
+JDBC\models\Category.class
+JDBC\repositories\BrewerRepository.class
+JDBC\repositories\CategoryRepository.class
+org\example\Main.class
+JDBC\repositories\BeerRepository.class
+JDBC\MainApp.class
+JDBC\models\Brewer.class
+JDBC\models\Beer.class
