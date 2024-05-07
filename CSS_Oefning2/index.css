@@ -1,0 +1,67 @@
+/*body>table
+{
+    width: 300px;
+    height: 100px;
+    border: 2px solid black;
+}*/
+.first_Table{
+    width: 300px;
+    height: 100px;
+    border: 2px solid black;
+}
+
+.Second_Table{
+    width: 304px;
+    height: 150px;
+    border: 2px solid black;
+}
+.Third_Table{
+    width: 400px;
+    height: 100px;
+    border: 2px solid black;
+}
+
+.cell
+{
+height:auto;
+width:33.33%;
+border: 2px solid black;
+}
+.cell3
+{
+height:auto;
+width:25%;
+border: 2px solid black;
+}
+
+.HeaderRow
+{
+    grid-row: 1/span 2;
+}
+.header1
+{
+ 
+  grid-column: 1/span 3;
+
+}
+
+.row:hover
+{
+background-color: cyan;
+}
+
+
+
+td:first-child()
+{
+    text-align: left;
+}
+td:last-child
+{
+    text-align: right;
+}
+td:nth-child(2)
+{
+    text-align: center;
+}
+

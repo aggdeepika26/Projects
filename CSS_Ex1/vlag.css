@@ -1,0 +1,28 @@
+
+body>div
+{   display:flex;
+    height: 100px;
+    margin: 5px;
+    border: 2px;
+}
+body>div>div
+{
+   height: 100px;
+   width: 33%;
+  
+}
+div:first-child{
+    background-color: black;
+} 
+
+div:nth-child(2)
+{
+    background-color:yellow;
+}
+
+div:last-child{
+    background-color:red
+}
+
+
+
